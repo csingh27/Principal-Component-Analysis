@@ -1,0 +1,7 @@
+/home/cs/C++ Test/exercise2/CMakeFiles/install/strip.dir
+/home/cs/C++ Test/exercise2/CMakeFiles/install/local.dir
+/home/cs/C++ Test/exercise2/CMakeFiles/rebuild_cache.dir
+/home/cs/C++ Test/exercise2/CMakeFiles/exercise2.dir
+/home/cs/C++ Test/exercise2/CMakeFiles/edit_cache.dir
+/home/cs/C++ Test/exercise2/CMakeFiles/install.dir
+/home/cs/C++ Test/exercise2/CMakeFiles/list_install_components.dir

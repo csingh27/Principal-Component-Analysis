@@ -1,0 +1,30 @@
+Task 1:
+Preparation:
+you might have to install  gtest. E.g. on Ubuntu: “apt-get install libgtest-dev” ✔
+ 
+Task:
+Please download the tar.gz file and extract the contents. Inside you'll find a project that you can build with:
+ 
+cd geometry
+make all
+ 
+but if you try to build the project, it will fail because not all relevant classes are implemented. Please have a look at the test in test/test_geometries.cpp and implement all missing classes such that the test will run successfully.
+ 
+You can test your implementation by running:
+ 
+cd geometry
+make test
+ 
+Please also prepare for questions regarding the code (cmake and C++) we provided. See for example this line of code:
+ 
+"std::list<std::pair<std::unique_ptr<Geometry>, double>> shape_areas;"
+ 
+we might ask e.g.:
+What is a list?
+What is a unique pointer?
+What does the "<...>" notation mean?
+
+Task 2:
+Please make a project in which you implement a function that calculates an oriented bounding box around a point set in 3d using principal component analysis. Use only cmake, libeigen and the C++ standard libraries.
+
+=== End tasks ===

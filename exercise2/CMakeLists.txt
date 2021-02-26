@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.10.2)
+project(exercise2)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED On)
+add_executable("${PROJECT_NAME}" ${CMAKE_CURRENT_SOURCE_DIR}/exercise2.cpp)
+install (TARGETS "${PROJECT_NAME}" DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/build) #${CMAKE_INSTALL_PREFIX}/bin
+install (FILES "Exercise2.cpp" DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/src)     #${CMAKE_INSTALL_PREFIX}/src
+
+

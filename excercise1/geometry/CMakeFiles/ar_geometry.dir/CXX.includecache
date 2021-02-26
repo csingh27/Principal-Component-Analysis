@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cs/C++ Test/excercise1/geometry/src/box.cpp
+ar_geometry/box.h
+-
+
+/home/cs/C++ Test/excercise1/geometry/src/capsule.cpp
+ar_geometry/capsule.h
+-
+cmath
+-
+
+/home/cs/C++ Test/excercise1/geometry/src/mesh.cpp
+ar_geometry/mesh.h
+-
+
+/home/cs/C++ Test/excercise1/geometry/src/sphere.cpp
+ar_geometry/sphere.h
+-
+cmath
+-
+
+include/ar_geometry/box.h
+ar_geometry/geometry.h
+-
+
+include/ar_geometry/capsule.h
+ar_geometry/geometry.h
+-
+
+include/ar_geometry/geometry.h
+
+include/ar_geometry/mesh.h
+ar_geometry/geometry.h
+-
+eigen3/Eigen/Eigen
+-
+
+include/ar_geometry/sphere.h
+ar_geometry/geometry.h
+-
+

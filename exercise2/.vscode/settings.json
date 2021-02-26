@@ -1,0 +1,9 @@
+{
+    "C_Cpp.default.compilerPath": "/home/cs/.vscode/extensions/bartmanabyss.amiga-debug-1.0.0\\bin\\opt\\bin\\m68k-amiga-elf-gcc.exe",
+    "files.associations": {
+        "ostream": "cpp",
+        "valarray": "cpp",
+        "iostream": "cpp",
+        "dense": "cpp"
+    }
+}

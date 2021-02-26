@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cs/C++ Test/exercise2/exercise2.cpp
+iostream
+-
+cstdlib
+-
+eigen3/Eigen/Dense
+-
+
